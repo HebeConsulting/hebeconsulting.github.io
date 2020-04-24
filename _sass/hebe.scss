@@ -1,0 +1,71 @@
+.jumbotron {
+  background-color: #fff;
+  margin-bottom: 0rem;
+}
+
+.card-icon {
+  padding-top: 1.25rem;
+}
+
+section:before {
+    height: 54px;
+    content: "";
+    display:block;
+}
+
+.main {
+  margin-bottom: -54px;
+}
+
+.site-footer {
+  border-top: 1px solid #e8e8e8;
+  padding: 30px 0;
+  font-size: 0.8rem;
+}
+
+.social-links {
+  color: #828282;
+}
+
+.social-media-list {
+  display: table;
+  margin: 0 auto;
+  list-style: none;
+}
+
+.social-media-list li {
+  float: left;
+  margin: 5px 10px 5px 0;
+}
+
+.social-media-list li a {
+  display: block;
+  padding: 7.5px;
+  border: 1px solid #e8e8e8;
+}
+
+.social-media-list a:visited {
+  color: #1756a9;
+}
+
+.social-media-list a {
+  color: #2a7ae2;
+  text-decoration: none;
+}
+
+.svg-icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: text-bottom;
+}
+
+.grey {
+  color: #828282;
+}
+
+.about-form {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}

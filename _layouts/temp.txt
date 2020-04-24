@@ -1,0 +1,25 @@
+
+    <footer class="footer">
+
+      <div class="container">
+        <div class="social-links">
+          <ul class="social-media-list">
+            <li>
+              <a rel="me" href="https://github.com/hebeconsult" title="GitHub">
+                <svg class="svg-icon grey">
+                  <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}">
+                  </use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a rel="me" href="https://twitter.com/hebeconsult" title="jekyllrb">
+                <svg class="svg-icon grey">
+                  <use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}">
+                  </use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
