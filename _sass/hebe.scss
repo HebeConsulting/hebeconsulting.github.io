@@ -73,3 +73,19 @@ section:before {
 .nav-link .flag-icons {
   margin-top: 4px;
 }
+
+a.nav-link {
+  filter: grayscale(1);
+}
+
+a.tr:lang(tr) {
+  filter: grayscale(0);
+}
+
+a.en:lang(en) {
+  filter: grayscale(0);
+}
+
+a.nav-link:hover {
+  filter: grayscale(0);
+}
