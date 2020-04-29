@@ -19,6 +19,14 @@
           <li class="nav-item">
             <a class="nav-link" href="about.html">Contact</a>
           </li>
+          {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+          {% for page in pages %}
+          <li class="nav-item">
+            <a href="{{ page.url }}" class="nav-link {{ page.lang }}">
+              <i class="flag-icons {{ page.lang }}"></i>
+            </a>
+          </li>
+          {% endfor %}
         </ul>
       </div>
     </div>
