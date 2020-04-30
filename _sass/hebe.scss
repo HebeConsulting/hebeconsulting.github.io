@@ -89,3 +89,75 @@ a.en:lang(en) {
 a.nav-link:hover {
   filter: grayscale(0);
 }
+
+.post-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.post-list>li {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.post-list>li:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+
+.post-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-link {
+  color: #999;
+  text-decoration: none;
+  transition: border-bottom 0.4s;
+}
+
+.post-title {
+  color: #222;
+  transition: color .3s ease;
+  margin: .1em 0;
+}
+
+.post-title:hover {
+  color: #999;
+}
+
+a.post-link:hover {
+  border-bottom-style: none;
+  text-decoration: none;
+}
+
+.post-date {
+  color: #999;
+}
+
+.post-date .fa-calendar-alt {
+  margin-right: 6px;
+}
+
+.container.posts {
+  margin-top: 30px;
+}
+
+.posts .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.post-tags {
+  display: inline-flex;
+}
+
+.post-tag {
+  margin-right: 5px;
+  color: #999;
+}
+
+.post-tags .fas {
+  margin-top: 4px;
+  margin-right: 3px;
+}
