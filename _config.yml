@@ -1,5 +1,15 @@
+sass:
+  style: compressed
+
+## Site settings
 title:
   en: HEBE Consulting
   tr: HEBE Danismanlik
-sass:
-  style: compressed
+
+description:
+  en: We are offering a variety of computational and statistical services for the analysis of large scale data sets in biology.
+  tr: Biyolojide büyük ölçekli veri kümelerinin analizi için çeşitli hesaplama ve istatistik hizmetleri sunuyoruz.
+
+heading:
+  en: Computational and scientific consulting
+  tr: Computational and scientific danismanlik
