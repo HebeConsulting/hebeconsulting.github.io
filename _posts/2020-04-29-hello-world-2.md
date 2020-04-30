@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "On why Kuzu is a good boy"
+title:  "On why Kuzu is a good boy and Maya is most certainly not."
 ref: kuzu
 date:   2016-02-29 09:48:44 +0100
 categories: jekyll update

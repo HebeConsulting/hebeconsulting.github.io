@@ -96,8 +96,8 @@ a.nav-link:hover {
 }
 
 .post-list>li {
-  margin-bottom: 30px;
-  padding-bottom: 30px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .post-list>li:not(:last-child) {
@@ -140,7 +140,7 @@ a.post-link:hover {
 }
 
 .container.posts {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .posts .row {
@@ -150,6 +150,7 @@ a.post-link:hover {
 
 .post-tags {
   display: inline-flex;
+  margin-top: 4px;
 }
 
 .post-tag {
@@ -160,4 +161,10 @@ a.post-link:hover {
   margin-top: 2px;
   margin-right: 2px;
   color: #e83e8c;
+}
+
+@include media-breakpoint-down(sm) {
+  .post-title {
+    font-size: 1.0rem;
+  }
 }

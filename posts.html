@@ -16,6 +16,12 @@ ref: posts
                   {{ post.title }}
                 </h5>
               </a>
+            </div>
+            <div class="row post-meta">
+              <div class="post-date">
+                <i class="fa fa-calendar-alt"></i>
+                  {{post.date | date: "%b %-d, %Y" }}
+              </div>
               <div class="post-lang">
                 <i class="flag-icons {{ post.lang }}"></i>
               </div>
@@ -26,10 +32,6 @@ ref: posts
                   <code class="post-tag">
                     {{ post.categories | sort | join: ", " }}
                   </code>
-              </div>
-              <div class="post-date">
-                <i class="fa fa-calendar-alt"></i>
-                  {{post.date | date: "%b %-d, %Y" }}
               </div>
             </div>
           </li>
