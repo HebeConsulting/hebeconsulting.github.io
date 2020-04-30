@@ -13,3 +13,5 @@ description:
 heading:
   en: Computational and scientific consulting
   tr: Computational and scientific danismanlik
+
+markdown: kramdown
