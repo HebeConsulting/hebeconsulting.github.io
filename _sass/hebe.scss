@@ -53,12 +53,17 @@ section:before {
   text-decoration: none;
 }
 
-.svg-icon {
-  width: 16px;
-  height: 16px;
+.social-icon {
+  width: 32px;
+  height: 32px;
   display: inline-block;
-  fill: currentColor;
+  color: #555;
+  font-size: 32;
   vertical-align: text-bottom;
+}
+
+.social-icon:hover {
+  color: #007bff;
 }
 
 .grey {
@@ -167,4 +172,8 @@ a.post-link:hover {
   .post-title {
     font-size: 1.0rem;
   }
+}
+
+#more .card-body {
+  min-height: 250px;
 }

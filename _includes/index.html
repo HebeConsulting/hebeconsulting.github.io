@@ -8,8 +8,12 @@
         {{ site.description[page.lang] }}
       </p>
       <p>
-        <a href="#more" class="btn btn-primary my-2 smooth-scroll">More</a>
-        <a href="about.html" class="btn btn-secondary my-2">Contact Us</a>
+        <a href="#more" class="btn btn-primary my-2 smooth-scroll">
+          {{ site.navbar["more"][page.lang] }}
+        </a>
+        <a href={{ site.navigation["about"][page.lang] }} class="btn btn-secondary my-2">
+          {{ site.navbar["contact"][page.lang] }} 
+        </a>
       </p>
     </div>
   </div>
@@ -29,11 +33,11 @@
               </div>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Workflows</h5>
+              <h5 class="card-title">
+                {{ site.services["workflows"]["title"][page.lang] }}
+              </h5>
               <p class="card-text">
-                We find solutions to the specific needs of each of your individual
-                projects. You come away with workflows and scripts that are
-                custom fit and results which are highly reproducible.
+                {{ site.services["workflows"]["description"][page.lang] }}
               </p>
             </div>
           </div>
@@ -49,11 +53,11 @@
               </div>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Bioinformatics</h5>
+              <h5 class="card-title">
+                {{ site.services["bioinf"]["title"][page.lang] }}
+              </h5>
               <p class="card-text">
-                We statistically analyze your data using modern methods and
-                tools. Whether you are looking at differential expression,
-                transcription factors or mass-spec proteomics data.
+                {{ site.services["bioinf"]["description"][page.lang] }}
               </p>
             </div>
           </div>
@@ -69,11 +73,11 @@
               </div>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Publication</h5>
+              <h5 class="card-title">
+                {{ site.services["publication"]["title"][page.lang] }}
+              </h5>
               <p class="card-text">
-                We deliver tables and publication ready visualizations of your
-                analyzed data. We support you with copy editing of written drafts and
-                help you write the methods section.
+                {{ site.services["publication"]["description"][page.lang] }}
               </p>
             </div>
           </div>
@@ -89,11 +93,11 @@
               </div>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Databases</h5>
+              <h5 class="card-title">
+                {{ site.services["databases"]["title"][page.lang] }}
+              </h5>
               <p class="card-text">
-                We design relational, scalable databases with state of the art web UIs to
-                manage your lab, organize the raw data and keep track of available
-                metadata and processed results.
+                {{ site.services["databases"]["description"][page.lang] }}
               </p>
             </div>
           </div>
@@ -109,11 +113,11 @@
               </div>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Web Applications</h5>
+              <h5 class="card-title">
+                {{ site.services["webapps"]["title"][page.lang] }}
+              </h5>
               <p class="card-text">
-                We design basic websites as well as fully fledged full-stack
-                interactive web applications and web services. Our solutions are
-                mobile-friendly, reliable, secure and scalable.
+                {{ site.services["webapps"]["description"][page.lang] }}
               </p>
             </div>
           </div>
@@ -129,12 +133,11 @@
               </div>
             </div>
             <div class="card-body">
-              <h5 class="card-title">Training</h5>
+              <h5 class="card-title">
+                {{ site.services["training"]["title"][page.lang] }}
+              </h5>
               <p class="card-text">
-                We offer extensive on-site training tailored on your needs for
-                typical data science tasks (e.g. statistics in R) but also a
-                comprehensive intro into UNIX and into the version control
-                system Git.
+                {{ site.services["training"]["description"][page.lang] }}
               </p>
             </div>
           </div>

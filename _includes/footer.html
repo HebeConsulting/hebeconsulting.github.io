@@ -1,10 +1,12 @@
 <footer class="site-footer text-muted">
   <div class="container">
     <p class="float-right">
-      <a href="#">Back to top</a>
+      <a href="#">
+        {{ site.footer["top"][page.lang] }}
+      </a>
     </p>
     <p>
-      Copyright (c) 2019 Hebe Consulting - <a href="contact.html">Contact Us</a> - Ankara, Turkey
+    Copyright (c) 2019 Hebe Consulting - <a href={{ site.navigation["contact"][page.lang] }}>{{ site.navbar["contact"][page.lang] }}</a> - {{ site.footer["city"][page.lang] }}
     </p>
 
     <div class="footer-col-wrapper">
@@ -12,12 +14,16 @@
         <ul class="social-media-list">
           <li>
             <a rel="me" href="https://github.com/hebeconsulting" title="Hebe Consulting">
-              <svg class="svg-icon grey"><use xlink:href="/assets/svg/minima-social-icons.svg#github"></use></svg>
+              <div class="social-icon">
+                <i class="fab fa-github"></i>
+              </div>
             </a>
           </li>
           <li>
             <a rel="me" href="https://twitter.com/hebeconsult" title="HebeConsult">
-              <svg class="svg-icon grey"><use xlink:href="/assets/svg/minima-social-icons.svg#twitter"></use></svg>
+              <div class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </div>
             </a>
           </li>
         </ul>
