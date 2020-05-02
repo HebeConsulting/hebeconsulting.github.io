@@ -1,0 +1,42 @@
+---
+layout: default
+lang: en
+ref: posts
+---
+
+<div class="container posts">
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <ul class="post-list">
+        {% for post in site.posts %}
+          <li>
+            <div class="row post-meta">
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                <h5 class="post-title">
+                  {{ post.title }}
+                </h5>
+              </a>
+            </div>
+            <div class="row post-meta">
+              <div class="post-date">
+                <i class="fa fa-calendar-alt"></i>
+                  {{post.date | date: "%b %-d, %Y" }}
+              </div>
+              <div class="post-lang">
+                <i class="flag-icons {{ post.lang }}"></i>
+              </div>
+            </div>
+            <div class="row post-meta">
+              <div class="post-tags">
+                <i class="fas fa-hashtag"></i>
+                  <code class="post-tag">
+                    {{ post.categories | sort | join: ", " }}
+                  </code>
+              </div>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

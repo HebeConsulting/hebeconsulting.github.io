@@ -1,3 +1,135 @@
-title: HEBE Consulting
+## settings
+markdown: kramdown
 sass:
   style: compressed
+
+
+## translations:
+
+title:
+  en: HEBE Consulting
+  tr: HEBE Danismanlik
+
+## index
+description:
+  en: We are offering a variety of computational and statistical services for the analysis of large scale data sets in biology.
+  tr: Büyük ölçekli biyolojik veri analizi için hesaplama ve istatistik hizmetleri sunmaktayız.
+
+heading:
+  en: Computational and scientific consulting
+  tr: Biyoinformatik ve bilimsel danışmanlık
+
+footer:
+  city:
+    en: Ankara, Turkey
+    tr: Ankara, Türkiye
+  top:
+    en: Back to top
+    tr: Yukarı
+
+navbar:
+  home:
+    en: Home
+    tr: Ana sayfa
+  contact:
+    en: Contact
+    tr: İletişim
+  more:
+    en: More
+    tr: Bilgi
+
+## navigation:
+navigation:
+  index:
+    en: index.html
+    tr: indeks.html
+  about:
+    en: about.html
+    tr: iletisim.html
+
+## services:
+services:
+  workflows:
+    title:
+      en: Workflows
+      tr: İş akışları
+    description:
+      en: We find solutions to the specific needs of each of your individual projects. You come away with workflows and scripts that are custom fit and results which are highly reproducible.
+      tr: İhtiyaçlarınız doğrultusunda projelerinize özel çözümler bulmaktayız. Size özel iş akışları ve komut dosyaları ile veri analizinizde tekrarlanabilir sonuçlar elde etmenize yardımcı olmak isteriz.
+  bioinf:
+    title:
+      en: Bioinformatics
+      tr: Biyoinformatik
+    description:
+      en: We statistically analyze your data using modern methods and tools. Whether you are looking at differential expression, transcription factors or mass-spec proteomics data.
+      tr: Büyük verinizin istatistiksel analizlerini (gen ifadesi farklılıkları,  ChIP-Seq analizleri, Mass-Spec proteomik analizler vb.) modern yöntemler ve araçlar kullanarak yapmaktayız.
+  publication:
+    title:
+      en: Publication
+      tr: Yayınlar
+    description:
+      en: We deliver tables and publication ready visualizations of your analyzed data. We support you with copy editing of written drafts and help you write the methods section.
+      tr: Analiz edilmiş verilerinizin makaleler için uygun, yayınlanmaya hazır tablo ve görsellerini hazırlamaktayız. Aynı zamanda yazılı taslaklarınızın düzenlenmesinde ve özellikle metotların yazılımında sizlere yardımcı olmaktayız.
+  databases:
+    title:
+      en: Databases
+      tr: Veritabanları
+    description:
+      en: We design relational, scalable databases with state of the art web UIs to manage your lab, organize the raw data and keep track of available metadata and processed results.
+      tr: Size özel olarak, çalışmalarınızı yönetebilmek için ihtiyacınız olan, (verilerin organizasyonu, meta verilerin belirlenmesi, analiz edilmiş verilerin girilmesi vb.) son teknoloji web kullanıcı arayüzleriyle hazırlanmış, ölçeklenebilir veritabanları tasarlamaktayız.
+  webapps:
+    title:
+      en: Web Applications
+      tr: Web uygulamaları
+    description:
+      en: We design basic websites as well as fully fledged full-stack interactive web applications and web services. Our solutions are mobile-friendly, reliable, secure and scalable.
+      tr: Temel internet sitelerinin yanı sıra tam teşekküllü, etkileşimli web uygulamaları ve web hizmetleri tasarlamaktayız. Tasarımlarımız mobil uyumlu, güvenilir, güvenli ve ölçeklenebilirdir.
+  training:
+    title:
+      en: Training
+      tr: Eğitim
+    description:
+      en: We offer extensive on-site training tailored on your needs for typical data science tasks (e.g. statistics in R) but also a comprehensive intro into UNIX and into the version control system Git.
+      tr: Sizin gereksinimlerinize göre hazırlanmış kapsamlı eğitimler sunmaktayız. (UNIX, Git, R vb)
+
+## contact us
+contact:
+  name:
+    en: Name
+    tr: İsim
+  email:
+    en: Email
+    tr: Eposta
+  company:
+    en: Institute/Company
+    tr: Kurum
+  phone:
+    en: Phone Number
+    tr: Telefon Numarası
+  services:
+    title:
+      en: Services
+      tr: Hizmetler
+    name:
+      bioinf:
+        en: Bioinformatics
+        tr: Biyoinformatik
+      databases:
+        en: Databases
+        tr: Veritabanları
+      training:
+        en: Training
+        tr: Eğitim
+      webapps:
+        en: Web Applications
+        tr: Web uygulamaları
+      other:
+        en: Other
+        tr: Diğer
+  message:
+   en: Message
+   tr: Mesajınız
+  buttons:
+   submit:
+     en: Submit
+     tr: Gönder

@@ -53,12 +53,17 @@ section:before {
   text-decoration: none;
 }
 
-.svg-icon {
-  width: 16px;
-  height: 16px;
+.social-icon {
+  width: 32px;
+  height: 32px;
   display: inline-block;
-  fill: currentColor;
+  color: #555;
+  font-size: 32;
   vertical-align: text-bottom;
+}
+
+.social-icon:hover {
+  color: #007bff;
 }
 
 .grey {
@@ -68,4 +73,107 @@ section:before {
 .about-form {
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.nav-link .flag-icons {
+  margin-top: 4px;
+}
+
+a.nav-link {
+  filter: grayscale(1);
+}
+
+a.tr:lang(tr) {
+  filter: grayscale(0);
+}
+
+a.en:lang(en) {
+  filter: grayscale(0);
+}
+
+a.nav-link:hover {
+  filter: grayscale(0);
+}
+
+.post-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.post-list>li {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.post-list>li:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+
+.post-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-link {
+  color: #999;
+  text-decoration: none;
+  transition: border-bottom 0.4s;
+}
+
+.post-title {
+  color: #222;
+  transition: color .3s ease;
+  margin: .1em 0;
+}
+
+.post-title:hover {
+  color: #999;
+}
+
+a.post-link:hover {
+  border-bottom-style: none;
+  text-decoration: none;
+}
+
+.post-date {
+  color: #999;
+}
+
+.post-date .fa-calendar-alt {
+  margin-right: 6px;
+}
+
+.container.posts {
+  margin-top: 20px;
+}
+
+.posts .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.post-tags {
+  display: inline-flex;
+  margin-top: 4px;
+}
+
+.post-tag {
+  margin-right: 4px;
+}
+
+.post-tags .fas {
+  margin-top: 2px;
+  margin-right: 2px;
+  color: #e83e8c;
+}
+
+@include media-breakpoint-down(sm) {
+  .post-title {
+    font-size: 1.0rem;
+  }
+}
+
+#more .card-body {
+  min-height: 250px;
 }

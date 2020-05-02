@@ -1,0 +1,149 @@
+<div class="main">
+  <div class="jumbotron text-center">
+    <div class="container">
+      <h2 class="jumbotron-heading">
+        {{ site.heading[page.lang] }}
+      </h2>
+      <p class="lead text-muted">
+        {{ site.description[page.lang] }}
+      </p>
+      <p>
+        <a href="#more" class="btn btn-primary my-2 smooth-scroll">
+          {{ site.navbar["more"][page.lang] }}
+        </a>
+        <a href={{ site.navigation["about"][page.lang] }} class="btn btn-secondary my-2">
+          {{ site.navbar["contact"][page.lang] }} 
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<section id="more">
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <div class="card-icon">
+              <div class="row justify-content-center">
+                <div class="col-4 mx-auto text-center">
+                  <i class='fas fa-hammer' style='font-size: 64px'></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                {{ site.services["workflows"]["title"][page.lang] }}
+              </h5>
+              <p class="card-text">
+                {{ site.services["workflows"]["description"][page.lang] }}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <div class="card-icon">
+              <div class="row justify-content-center">
+                <div class="col-4 mx-auto text-center">
+                  <i class='fa fa-chart-bar' style='font-size: 64px'></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                {{ site.services["bioinf"]["title"][page.lang] }}
+              </h5>
+              <p class="card-text">
+                {{ site.services["bioinf"]["description"][page.lang] }}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <div class="card-icon">
+              <div class="row justify-content-center">
+                <div class="col-4 mx-auto text-center">
+                  <i class='fa fa-file-contract' style='font-size: 64px'></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                {{ site.services["publication"]["title"][page.lang] }}
+              </h5>
+              <p class="card-text">
+                {{ site.services["publication"]["description"][page.lang] }}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <div class="card-icon">
+              <div class="row justify-content-center">
+                <div class="col-4 mx-auto text-center">
+                  <i class='fa fa-database' style='font-size: 64px'></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                {{ site.services["databases"]["title"][page.lang] }}
+              </h5>
+              <p class="card-text">
+                {{ site.services["databases"]["description"][page.lang] }}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <div class="card-icon">
+              <div class="row justify-content-center">
+                <div class="col-4 mx-auto text-center">
+                  <i class='fab fa-safari' style='font-size: 64px'></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                {{ site.services["webapps"]["title"][page.lang] }}
+              </h5>
+              <p class="card-text">
+                {{ site.services["webapps"]["description"][page.lang] }}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <div class="card-icon">
+              <div class="row justify-content-center">
+                <div class="col-4 mx-auto text-center">
+                  <i class='fa fa-graduation-cap' style='font-size: 64px'></i>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                {{ site.services["training"]["title"][page.lang] }}
+              </h5>
+              <p class="card-text">
+                {{ site.services["training"]["description"][page.lang] }}
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>

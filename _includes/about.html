@@ -1,0 +1,67 @@
+<div class="container">
+  <form class="about-form" action="https://formspree.io/mdolqbpa" method="POST">
+
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputName">
+          {{ site.contact["name"][page.lang] }}
+        </label>
+        <input name="inputName" type="name" class="form-control" id="inputName4" placeholder={{ site.contact["name"][page.lang] }}>
+      </div>
+      <div class="form-group col-md-6">
+        <label for="inputEmail4">
+          {{ site.contact["email"][page.lang] }}
+        </label>
+        <input name="email" type="email" class="form-control" id="inputEmail4" placeholder="john.appleseed@icloud.com">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="inputContact">
+        {{ site.contact["company"][page.lang] }}
+      </label>
+      <input name="contact" type="text" class="form-control" id="inputContact" placeholder={{ site.contact["company"][page.lang] }}>
+    </div>
+
+    <div class="form-group">
+      <label for="inputPhone">
+        {{ site.contact["phone"][page.lang] }}
+      </label>
+      <input name="phone" type="text" class="form-control" id="inputPhone" placeholder="+90 532 111 11 11">
+    </div>
+
+    <div class="form-group">
+      <label for="inputService">
+        {{ site.contact["services"]["title"][page.lang] }}
+      </label>
+      <select name="service" id="inputService" class="form-control">
+        <option>
+          {{ site.contact["services"]["name"]["bioinf"][page.lang] }}
+        </option>
+        <option>
+          {{ site.contact["services"]["name"]["databases"][page.lang] }}
+        </option>
+        <option>
+          {{ site.contact["services"]["name"]["training"][page.lang] }}
+        </option>
+        <option>
+          {{ site.contact["services"]["name"]["webapps"][page.lang] }}
+        </option>
+        <option>
+          {{ site.contact["services"]["name"]["other"][page.lang] }}
+        </option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="inputMessage">
+        {{ site.contact["message"][page.lang] }}
+      </label>
+      <textarea name="message" class="form-control" id="inputMessage" rows="5"
+        required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">
+      {{ site.contact["buttons"]["submit"][page.lang] }}
+    </button>
+  </form>
+</div>
