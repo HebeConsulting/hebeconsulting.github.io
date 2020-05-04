@@ -1,4 +1,5 @@
 ## settings
+permalink: /:year/:month/:day/:title:output_ext
 markdown: kramdown
 sass:
   style: compressed
