@@ -1,6 +1,9 @@
 ## settings
 permalink: /:year/:month/:day/:title:output_ext
 markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
 sass:
   style: compressed
 

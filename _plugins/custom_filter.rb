@@ -4,8 +4,6 @@ module Jekyll::CustomFilter
   def nyx_absolute_url(input)
     return if input.nil?
 
-    puts input
-
     env = ENV['JEKYLL_ENV'] || 'development'
 
     input_ = absolute_url(input)

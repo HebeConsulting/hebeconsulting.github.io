@@ -177,3 +177,16 @@ a.post-link:hover {
 #more .card-body {
   min-height: 250px;
 }
+
+.post {
+  margin-top: 20px;
+}
+
+.post .post-title {
+  font-size: 1.75rem;
+  margin-bottom: 30px;
+}
+
+.post iframe {
+  height: 50%;
+}
