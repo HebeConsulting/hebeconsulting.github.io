@@ -2,6 +2,7 @@
 title: From netlify
 date: 2020-07-08T12:47:00.265Z
 layout: post
+ref: netlify
 lang: en
 categories:
   - test
