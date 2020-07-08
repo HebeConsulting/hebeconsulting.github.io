@@ -3,8 +3,8 @@ layout: post
 title:  "Sucuk"
 ref: sucuk
 date:   2019-03-29 09:48:44 +0100
-categories: 
-  - jekyll 
+categories:
+  - jekyll
   - update
 lang: tr
 ---
