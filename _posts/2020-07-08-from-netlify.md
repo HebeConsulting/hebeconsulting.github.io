@@ -10,4 +10,4 @@ What can we do here.
 
 
 
-![triangle](/images/uploads/screen-shot-2020-02-15-at-13.48.54.png "trompa") {:.mx-auto .d-block .col-10 .col-md-10 }
+![triangle](/images/uploads/screen-shot-2020-02-15-at-13.48.54.png "trompa"){:.mx-auto .d-block .col-10 .col-md-10 }
