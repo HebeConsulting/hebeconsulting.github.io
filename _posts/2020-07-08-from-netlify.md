@@ -1,8 +1,7 @@
 ---
 title: From netlify
 date: 2020-07-08T12:47:00.265Z
-tags:
-  - mytag
+layout: post
 lang: en
 categories:
   - test
