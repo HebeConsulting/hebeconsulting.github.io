@@ -4,6 +4,9 @@ date: 2020-07-08T12:47:00.265Z
 tags:
   - mytag
 lang: en
+categories:
+  - test
+  - another
 ---
 This is a new post from inside Netlify.
 
